@@ -12,7 +12,6 @@ Thread.abort_on_exception = true
 
 class Twitch
 
-    ENV['TWITCH_CHAT_TOKEN']='oauth:tnporv7fo5c88q6gwljalt2dhl0gtd'
 
     attr_reader :logger, :running, :socket
     attr_accessor :channel
